@@ -33,7 +33,7 @@ erDiagram
         string statusName
     }
 
-    FLIGHT_STATUSES {
+    FLIGHT_STATUSE {
         string flightStatusName PK
         string flightStatusDescription
     }
@@ -47,7 +47,7 @@ erDiagram
         string bookingStatus
     }
 
-    BOOKING_STATUSES {
+    BOOKING_STATUSE {
         string bookingStatusName PK
         string bookingStatusDescription
     }
