@@ -44,7 +44,7 @@ erDiagram
         int flightID FK
         datetime bookingDate
         string seatNumber
-        int bookingStatus
+        string bookingStatus
     }
 
     BOOKING_STATUSES {
