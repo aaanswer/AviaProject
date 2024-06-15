@@ -30,7 +30,7 @@ erDiagram
         string destination
         datetime departureTime
         datetime arrivalTime
-        string statusName
+        string flightStatusName
     }
 
     FLIGHT_STATUSE {
@@ -48,7 +48,7 @@ erDiagram
     }
 
     BOOKING_STATUSE {
-        string bookingStatusName PK
+        string bookingStatus PK
         string bookingStatusDescription
     }
 
