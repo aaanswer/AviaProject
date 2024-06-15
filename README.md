@@ -9,7 +9,7 @@ erDiagram
         string patronymic
         string passportSeries
         string passportNumber
-        string email
+        string email FK
     }
 
     USERLOGIN {
