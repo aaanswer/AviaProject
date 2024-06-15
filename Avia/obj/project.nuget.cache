@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuQgG60z3aA=",
+  "dgSpecHash": "ld/Xplvc+MI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\archMqq\\Documents\\Миркитанов\\BigProject\\Avia\\Avia.csproj",
+  "projectFilePath": "C:\\Users\\archMqq\\Documents\\Миркитанов\\AviaProject\\Avia\\Avia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\archMqq\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\archMqq\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows;
+using Avia.Database;
 
 namespace Avia
 {
@@ -26,10 +27,12 @@ namespace Avia
         private bool isMail = true;
         private int verificationCode;
         private string receiverMail;
+        private Emailer emailer;
 
         public Registration()
         {
             InitializeComponent();
+            emailer = new Emailer();
         }        
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,7 +42,9 @@ namespace Avia
 
         private void backToOwner()
         {
-            //Возврат в окно входа
+            MainWindow entering = new MainWindow();
+            entering.Show();
+            Close();
         }
 
         private SmtpClient smtpCreate()
@@ -51,106 +56,9 @@ namespace Avia
 
             return smtpClient;
         }
+        
 
-        private void verificationGenirate()
-        {
-            Random random = new Random();
-            verificationCode = random.Next(10000, 99999);
-        }
-
-        private string passwordGenerator()
-        {
-            using (var rng = new RNGCryptoServiceProvider())
-            {
-                string AllCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-                byte[] randomBytes = new byte[12];
-                rng.GetBytes(randomBytes);
-
-                return new string(randomBytes.Select(b => AllCharacters[b % AllCharacters.Length]).ToArray());
-            }
-        }
-
-        private bool checkIfMailRegistered()
-        {
-            using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
-            {
-                connection.Open();
-                string query = "SELECT COUNT(*) FROM UsersLogin WHERE Email = @ReceiverMail";
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@ReceiverMail", receiverMail);
-                    int count = Convert.ToInt32(command.ExecuteScalar());
-                    if (count > 0)
-                    {
-                        MessageBox.Show("Данный адрес электронной почты уже зарегистрирован.");
-                        return true;
-                    }
-                    else
-                        return false;
-                }
-            }
-
-        }
-
-        private bool sendCode()
-        {
-            receiverMail = mailBox.Text;
-            if (checkIfMailRegistered())
-                return false;
-            verificationGenirate();
-            MailMessage mail = new MailMessage("testmeilbox0028@mail.ru", receiverMail);
-            mail.Subject = "Код подтверждения";
-            mail.Body = $"Ваш код подтверждения: {verificationCode}";
-
-            using (SmtpClient smtp = smtpCreate())
-            {
-                try
-                {
-                    smtp.Send(mail);
-                    MessageBox.Show("Письмо с кодом успешно отправлено вам на почту!");
-                    return true;
-                }
-                catch (SmtpException ex)
-                {
-                    MessageBox.Show("Данный адрес электронной почты не зарегистрирован");
-                    return false;
-                }
-
-            }
-        }
-
-        private bool sendPassword()
-        {
-            if (codeBox.Text == verificationCode.ToString())
-            {
-                string password = passwordGenerator();
-                MailMessage mail = new MailMessage("testmeilbox0028@mail.ru", receiverMail);
-                mail.Subject = "Пароль для входа в C++ обучение";
-                mail.Body = $"Ваш пароль: {password}";
-
-                using (SmtpClient smtp = smtpCreate())
-                {
-                    if (enterNewUser(password))
-                    {
-                        smtp.Send(mail);
-                        MessageBox.Show("Письмо с паролем успешно отправлено вам на почту!");
-                        return true;
-                    }
-                    return false;
-                }
-            }
-            return false;
-        }
-
-        static string HashPassword(string password)
-        {
-            using (SHA256 sha256 = SHA256.Create())
-            {
-                byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                return BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
-            }
-        }
-
+        //Изменить
         private bool enterNewUser(string password)
         {
             string selectCountQuery = "SELECT COUNT(*) FROM UsersInfo";
@@ -176,7 +84,7 @@ namespace Avia
                     {
                         try
                         {
-                            string hash = HashPassword(password);
+                            string hash = PasswordGenerator.hashPassword(password);
                             using (SqlCommand command = new SqlCommand(insertLoginQuery, connection, transaction))
                             {
                                 command.Parameters.AddWithValue("@PasswordHash", hash);
@@ -226,7 +134,8 @@ namespace Avia
             {
                 if (isMail)
                 {
-                    if (sendCode())
+                    verificationCode = CodeGenerator.generateFiveSymbCode();
+                    if (emailer.sendCode(receiverMail, verificationCode))
                     {
                         mailBox.Visibility = Visibility.Hidden;
                         codeBox.Visibility = Visibility.Visible;
@@ -236,7 +145,7 @@ namespace Avia
                 }
                 else
                 {
-                    if (sendPassword())
+                    if (emailer.sendPassword(receiverMail, PasswordGenerator.generateDefaultPassword()))
                     {
                         backToOwner();
                     }
