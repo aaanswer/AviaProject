@@ -58,8 +58,8 @@ erDiagram
     }
 
     USER ||--o{ BOOKING : "makes"
-    BOOKING_STATUSES ||--o{ BOOKING : "of"
-    FLIGHT_STATUSES ||--o{ FLIGHT : "of"
+    BOOKING_STATUSE ||--o{ BOOKING : "of"
+    FLIGHT_STATUSE ||--o{ FLIGHT : "of"
     USER ||--o{ FAVORITE_FLIGHT : "has"
     USERLOGIN ||--|| USER : "has"
     AIRLINE ||--o{ FLIGHT : "operates"
