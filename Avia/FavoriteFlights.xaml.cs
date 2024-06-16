@@ -29,6 +29,7 @@ namespace Avia
             this.userID = userID;
             flights = DBDefaultInfoChecker.getFavoriteFlights(userID);
             creator = new FlightCardCreator();
+            loadAllFlights();
             
         }
         private void loadAllFlights()
