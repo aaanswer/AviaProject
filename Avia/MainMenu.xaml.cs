@@ -1,5 +1,4 @@
-﻿using Avia.Database;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +15,7 @@ using System.Windows.Shapes;
 namespace Avia
 {
     /// <summary>
-    /// Логика взаимодействия для Window1.xaml
+    /// Логика взаимодействия для MainMenu.xaml
     /// </summary>
     public partial class MainMenu : Window
     {
@@ -24,11 +23,21 @@ namespace Avia
         public MainMenu(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void allFlights_Click(object sender, RoutedEventArgs e)
         {
-            
+            AllFlightsWindows allFlights = new AllFlightsWindows(userID);
+            allFlights.Show();
+            Close();
+        }
+
+        private void favoriteFlights_Click(object sender, RoutedEventArgs e)
+        {
+            FavoriteFlights favoriteFlights = new FavoriteFlights(userID);
+            favoriteFlights.Show();
+            Close();
         }
     }
 }

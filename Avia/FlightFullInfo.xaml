@@ -1,0 +1,20 @@
+﻿<Window x:Class="Avia.FlightFullInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Avia"
+        mc:Ignorable="d"
+        Title="FlightFullInfo" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Label Name="airlinesLabel" Content="Label" HorizontalAlignment="Left" Height="31" Margin="34,34,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name="originLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,95,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name ="destinationLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,155,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name="departureTimeLable" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,205,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name="arrivalTimeLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,255,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name="countOfFreeSeatsLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,308,0,0" VerticalAlignment="Top" Width="437"/>
+        <Button Name="bookBtn" Content="Забронировать" HorizontalAlignment="Left" Height="56" Margin="522,114,0,0" VerticalAlignment="Top" Width="244"/>
+        <Button Name ="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="56" Margin="522,266,0,0" VerticalAlignment="Top" Width="244" Click="favoriteBtn_Click"/>
+        <Label Name="statusLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,361,0,0" VerticalAlignment="Top" Width="437"/>
+    </Grid>
+</Window>

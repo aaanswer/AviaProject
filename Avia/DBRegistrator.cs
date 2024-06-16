@@ -57,5 +57,49 @@ namespace Avia.Database
                 }
             }
         }
+
+        public static bool deleteFromFavorite(int flightID, int userID)
+        {
+            using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "DELETE FROM FavoriteFlights WHERE FlightID = @FlightID AND UserID = @UserID";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@FlightID", flightID);
+                        command.Parameters.AddWithValue("@UserID", userID);
+                        return command.ExecuteNonQuery() > 0;
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
+
+        public static bool insertToFavorite(int flightID, int userID)
+        {
+            using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = "INSERT INTO FavoriteFlights (FlightID, USerID) VALUES (@FlightID, @UserID)";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@FlightID", flightID);
+                        command.Parameters.AddWithValue("@UserID", userID);
+                        return command.ExecuteNonQuery() > 0;
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
     }
 }

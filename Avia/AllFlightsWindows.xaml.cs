@@ -35,7 +35,7 @@ namespace Avia
         {
             foreach (var flight in flights)
             {
-                var card = creator.createCard(DBDefaultInfoChecker.getAirlinesNameByID(flight.Item2), flight.Item3, flight.Item4, flight.Item5, flight.Item6);
+                var card = creator.createCard(flight.Item1, DBDefaultInfoChecker.getAirlinesNameByID(flight.Item2), flight.Item3, flight.Item4, flight.Item5, flight.Item6);
                 panelContainer.Children.Add(card);
             }
         }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Media.Media3D;
 
 namespace Avia.Database;
 
@@ -13,6 +14,7 @@ public static class DBDefaultInfoChecker
     {
         using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
         {
+            connection.Open();
             string query = "SELECT UserID FROM Users WHERE Email = @Email";
             using (SqlCommand command = new SqlCommand(query, connection))
             {
@@ -26,6 +28,7 @@ public static class DBDefaultInfoChecker
     {
         using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
         {
+            connection.Open();
             string query = "SELECT UserID FROM Users WHERE Email = @Email";
             using (SqlCommand command = new SqlCommand(query, connection))
             {
@@ -42,6 +45,7 @@ public static class DBDefaultInfoChecker
         {
             try
             {
+                connection.Open();
                 string query = "SELECT * FROM Flights";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
@@ -68,6 +72,7 @@ public static class DBDefaultInfoChecker
         {
             try
             {
+                connection.Open();
                 string query = @"
                         SELECT 
                             f.FlightID,
@@ -118,6 +123,57 @@ public static class DBDefaultInfoChecker
             catch 
             {
                 return string.Empty;
+            }
+        }
+    }
+
+    public static (int, string, string, DateTime, DateTime, int, string)? getFlightInfoViaID(int flightID)
+    {
+        using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+        {
+            try
+            {
+                connection.Open();
+                string query = "SELECT * FROM Flights WHERE FlightID = @FlightID";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@FlightID", flightID);
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return (reader.GetInt32(1), reader.GetString(2),
+                                reader.GetString(3), reader.GetDateTime(4), reader.GetDateTime(5), reader.GetInt32(6), reader.GetString(7));
+                        }
+                    }
+                    return null;
+                }
+            }
+            catch
+            {
+                return null;
+            }
+        }
+    }
+
+    public static bool isInFavoriteFlights(int flightID, int userID)
+    {
+        using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+        {
+            try
+            {
+                connection.Open();
+                string query = "SELECT COUNT(*) FROM FavoriteFlights WHERE FlightID = @FlightID AND UserID = @UserID";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@FlightID", flightID);
+                    command.Parameters.AddWithValue("@UserID", userID);
+                    return (int)command.ExecuteScalar() > 0;
+                }
+            }
+            catch
+            {
+                return false;
             }
         }
     }

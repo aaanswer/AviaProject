@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="FavoriteFlights" Height="450" Width="800">
     <Grid>
-        
+        <ScrollViewer HorizontalAlignment="Center" Height="434" VerticalAlignment="Center" Width="800" VerticalScrollBarVisibility="Auto">
+            <StackPanel Name="panelContainer" Margin="10">
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>

@@ -78,3 +78,7 @@ C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\FavoriteFlights.baml
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\MainMenu.baml
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\UserInfoRegistration.baml
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\flightPanel.g.cs
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\flightPanel.baml
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\FlightFullInfo.g.cs
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\FlightFullInfo.baml

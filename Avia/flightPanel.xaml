@@ -10,9 +10,10 @@
         <Label Name="headerLabel" Content="." HorizontalAlignment="Left" Height="30" Margin="34,30,0,0" VerticalAlignment="Top" Width="548"/>
         <Label Name="Originlabel" Content="." HorizontalAlignment="Left" Height="26" Margin="34,98,0,0" VerticalAlignment="Top" Width="139"/>
         <Label Name="DestinationLabel" Content="." HorizontalAlignment="Left" Height="32" Margin="34,156,0,0" VerticalAlignment="Top" Width="139"/>
-        <Button Name="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="45" Margin="86,236,0,0" VerticalAlignment="Top" Width="165"/>
-        <Button Name="moreInfoBtn" Content="Подробнее" HorizontalAlignment="Left" Height="45" Margin="333,236,0,0" VerticalAlignment="Top" Width="165"/>
+        <Button Name="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="45" Margin="41,236,0,0" VerticalAlignment="Top" Width="165" Click="favoriteBtn_Click"/>
+        <Button Name="moreInfoBtn" Content="Подробнее" HorizontalAlignment="Left" Height="45" Margin="237,236,0,0" VerticalAlignment="Top" Width="165"/>
         <Label Name ="departureTimeLabel" Content="Label" HorizontalAlignment="Left" Height="26" Margin="364,98,0,0" VerticalAlignment="Top" Width="167"/>
         <Label Name ="arrivalTimeLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="364,156,0,0" VerticalAlignment="Top" Width="167"/>
+        <Button Name="bookBtn" Content="Забронировать место" HorizontalAlignment="Left" Height="45" Margin="425,236,0,0" VerticalAlignment="Top" Width="165"/>
     </Grid>
 </UserControl>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,17 @@ namespace Avia
     /// </summary>
     public partial class flightPanel : UserControl
     {
-        public flightPanel()
+        public int flightID { get; private set; }
+        public flightPanel(int flightID)
         {
             InitializeComponent();
+            this.flightID = flightID;
         }
+
+        public virtual void favoriteBtn_Click(object sender, RoutedEventArgs e)
+        {
+            favoriteBtn.Content = favoriteBtn.Content.ToString() == "Удалить из избранного" ? "Добавить в избранное" : "Удалить из избранного";
+        }
+
     }
 }
