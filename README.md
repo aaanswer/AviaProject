@@ -9,8 +9,12 @@ erDiagram
         string patronymic
         string passportSeries
         string passportNumber
+        string email FK
+    }
+
+    USERLOGIN {
+        string email PK
         string hashedPassword
-        string email
     }
 
     AIRLINE {
@@ -26,10 +30,10 @@ erDiagram
         string destination
         datetime departureTime
         datetime arrivalTime
-        string statusName
+        string flightStatusName
     }
 
-    FLIGHT_STATUSES {
+    FLIGHT_STATUSE {
         string flightStatusName PK
         string flightStatusDescription
     }
@@ -40,11 +44,11 @@ erDiagram
         int flightID FK
         datetime bookingDate
         string seatNumber
-        int bookingStatus
+        string bookingStatus
     }
 
-    BOOKING_STATUSES {
-        string bookingStatusName PK
+    BOOKING_STATUSE {
+        string bookingStatus PK
         string bookingStatusDescription
     }
 
@@ -54,9 +58,10 @@ erDiagram
     }
 
     USER ||--o{ BOOKING : "makes"
-    BOOKING_STATUSES ||--o{ BOOKING : "of"
-    FLIGHT_STATUSES ||--o{ FLIGHT : "of"
+    BOOKING_STATUSE ||--o{ BOOKING : "of"
+    FLIGHT_STATUSE ||--o{ FLIGHT : "of"
     USER ||--o{ FAVORITE_FLIGHT : "has"
+    USERLOGIN ||--|| USER : "has"
     AIRLINE ||--o{ FLIGHT : "operates"
     FLIGHT ||--o{ BOOKING : "is booked in"
     FLIGHT ||--o{ FAVORITE_FLIGHT : "is favorited in"
