@@ -29,9 +29,9 @@ public partial class MainWindow : Window
         {
             if (VerifyPassword(passwordBox.Text, passwordHash))
             {
-                //Открытие новой формы
-
-                this.Close();
+                MainMenu menu = new MainMenu(userID);
+                menu.Show();
+                Close();
             }
             else
             {
@@ -78,12 +78,7 @@ public partial class MainWindow : Window
 
     public bool VerifyPassword(string password, string hashedPassword)
     {
-        using (SHA256 sha256 = SHA256.Create())
-        {
-            byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-            string inputHash = BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
-            return string.Equals(inputHash, hashedPassword, StringComparison.OrdinalIgnoreCase);
-        }
+        return string.Equals(PasswordGenerator.hashPassword(password), hashedPassword, StringComparison.OrdinalIgnoreCase);        
     }
 
     //Работа eyeButton
@@ -104,6 +99,8 @@ public partial class MainWindow : Window
 
     private void registrationButton_Click(object sender, RoutedEventArgs e)
     {
-        //октрытие формы восстановления пароля
+        ForgotPassword forgotPassword = new ForgotPassword();
+        forgotPassword.Show();
+        Close();
     }
 }

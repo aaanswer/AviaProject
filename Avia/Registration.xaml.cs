@@ -28,6 +28,7 @@ namespace Avia
         private int verificationCode;
         private string receiverMail;
         private Emailer emailer;
+        private string password;
 
         public Registration()
         {
@@ -145,10 +146,10 @@ namespace Avia
                 }
                 else
                 {
-                    if (emailer.sendPassword(receiverMail, PasswordGenerator.generateDefaultPassword()))
-                    {
-                        backToOwner();
-                    }
+                    password = PasswordGenerator.generateDefaultPassword();
+                    if (DBRegistrator.registerNewUserLogin(receiverMail, PasswordGenerator.hashPassword(password)))
+                        if (emailer.sendPassword(receiverMail, password))
+                            continueRegistration();
                     else
                     {
                         MessageBox.Show("Ошибка при регистрации нового пользователя. Попробуйте позже");
@@ -165,6 +166,13 @@ namespace Avia
             {
                 MessageBox.Show("Для прохождения регистрации требуется подключение к интернету!");
             }
+        }
+
+        private void continueRegistration()
+        {
+            UserInfoRegistration userInfoRegistration = new UserInfoRegistration(receiverMail);
+            userInfoRegistration.Show();
+            Close();
         }
     }
 }

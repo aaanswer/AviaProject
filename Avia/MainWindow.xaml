@@ -9,7 +9,7 @@
     <Grid>
         <TextBox Name ="mailBox" HorizontalAlignment="Left" Height="17" Margin="204,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="309"/>
         <TextBox Name ="passwordBox"  HorizontalAlignment="Left" Height="26" Margin="204,151,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="309"/>
-        <Button Name ="enterButton" Content="Вход" HorizontalAlignment="Left" Height="37" Margin="285,274,0,0" VerticalAlignment="Top" Width="205"/>
+        <Button Name ="enterButton" Content="Вход" HorizontalAlignment="Left" Height="37" Margin="285,274,0,0" VerticalAlignment="Top" Width="205" Click="enterButton_Click"/>
         <Button Name ="registrationButton" Content="Button" HorizontalAlignment="Center" Height="23" Margin="0,383,0,0" VerticalAlignment="Top" Width="180" Click="registrationButton_Click" />
         <Button Name="restorePasswordBox" Content="Пароль забыт" HorizontalAlignment="Left" Height="23" Margin="204,217,0,0" VerticalAlignment="Top" Width="112"/>
         <Button Name ="eyeButton" Content="" HorizontalAlignment="Left" Height="26" Margin="518,151,0,0" VerticalAlignment="Top" Width="47"/>

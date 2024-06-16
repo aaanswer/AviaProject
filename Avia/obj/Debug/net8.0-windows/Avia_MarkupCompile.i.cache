@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\App.xaml
-3-101050322
+8-1650669526
 
-14-572478975
+21-1199167843
 226-469738908
-ForgotPassword.xaml;MainWindow.xaml;Registration.xaml;
+AllFlightsWindows.xaml;FavoriteFlights.xaml;flightPanel.xaml;ForgotPassword.xaml;MainMenu.xaml;MainWindow.xaml;Registration.xaml;UserInfoRegistration.xaml;
 
-False
+True
 

@@ -7,14 +7,38 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AllFlightsWindows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FavoriteFlights.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="flightPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ForgotPassword.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Registration.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserInfoRegistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AllFlightsWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FavoriteFlights.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="flightPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ForgotPassword.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -22,6 +46,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Registration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserInfoRegistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
