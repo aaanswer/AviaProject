@@ -125,5 +125,12 @@ namespace Avia
             userInfoRegistration.Show();
             Close();
         }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            Close();
+        }
     }
 }
