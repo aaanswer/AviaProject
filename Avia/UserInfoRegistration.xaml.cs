@@ -42,5 +42,20 @@ namespace Avia
             login.Show();
             Close();
         }
+
+        private void CheckIsNumeric(TextCompositionEventArgs e)
+        {
+            int result;
+
+            if (!(int.TryParse(e.Text, out result)))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void PreviewTextInputIsNumeric(object sender, TextCompositionEventArgs e)
+        {
+            CheckIsNumeric(e);
+        }
     }
 }
