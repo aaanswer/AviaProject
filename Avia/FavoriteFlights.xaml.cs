@@ -55,7 +55,6 @@ namespace Avia
             }
         }
 
-<<<<<<< HEAD
         private void bookBtn_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button;
@@ -86,15 +85,16 @@ namespace Avia
                 if ((int)panel.Tag == flightID)
                 {
                     panelContainer.Children.Remove(panel);
-                    return; 
+                    return;
                 }
             }
-=======
+        }
+
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
             MainMenu mainMenu = new MainMenu(userID);
             mainMenu.Show();
->>>>>>> b2d48dce01b607d98d0c15708ad1c92b7e939c25
+            Close();
         }
     }
 }

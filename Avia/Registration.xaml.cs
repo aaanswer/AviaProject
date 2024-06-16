@@ -42,7 +42,7 @@ namespace Avia
             entering.Show();
             Close();
         }
-        
+
         private bool enterNewUser(string password)
         {
             if (DBRegistrator.registerNewUserLogin(receiverMail, PasswordGenerator.hashPassword(password)))
@@ -50,7 +50,6 @@ namespace Avia
             else return false;
         }
 
-<<<<<<< HEAD
         private void continueRegistration()
         {
             UserInfoRegistration userInfoRegistration = new UserInfoRegistration(receiverMail);
@@ -58,8 +57,7 @@ namespace Avia
             Close();
         }
 
-=======
->>>>>>> xamlBranch
+
         private void CheckIsNumeric(TextCompositionEventArgs e)
         {
             int result;
@@ -75,11 +73,9 @@ namespace Avia
             CheckIsNumeric(e);
         }
 
-<<<<<<< HEAD
+
         private void nextStepBtn_Click(object sender, RoutedEventArgs e)
-=======
-        private void button2_Click(object sender, EventArgs e)
->>>>>>> xamlBranch
+
         {
             if (ServerPinger.PingServer())
             {
@@ -121,13 +117,6 @@ namespace Avia
         private void backBtn_Click(object sender, RoutedEventArgs e)
         {
             backToOwner();
-        }
-
-        private void backBtn_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            Close();
         }
     }
 }

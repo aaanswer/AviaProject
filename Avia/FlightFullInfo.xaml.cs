@@ -29,6 +29,7 @@ namespace Avia
             this.userID = userID;
             if (isInFavorite)
                 favoriteBtn.Content = "Удалить из избранных";
+            fillWindow();
         }
 
         private void favoriteBtn_Click(object sender, RoutedEventArgs e)
