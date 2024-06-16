@@ -8,8 +8,9 @@
         Title="AllFlightsWindows" Height="450" Width="800">
     <Grid>
         <ScrollViewer HorizontalAlignment="Center" Height="434" VerticalAlignment="Center" Width="800" VerticalScrollBarVisibility="Auto">
-            <StackPanel Name="panelContainer" Margin="10">
+            <StackPanel Name="panelContainer" Margin="10" Height="343" Width="769">
             </StackPanel>
         </ScrollViewer>
+        <Button Name ="backBtn" Content="◀️" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" VerticalAlignment="Top" Width="46" BorderBrush="White" Background="White" FontSize="24" Click="backBtn_Click"/>
     </Grid>
 </Window>
