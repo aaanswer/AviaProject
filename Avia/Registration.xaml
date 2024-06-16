@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Registration" Height="450" Width="800">
     <Grid>
-        <TextBox Name ="mailBox" HorizontalAlignment="Center" Height="24" Margin="0,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="316" FontFamily="Cascadia Mono SemiLight" FontSize="16" BorderBrush="White"/>
-        <TextBox Name ="codeBox" HorizontalAlignment="Center" Height="24" Margin="0,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="316" FontFamily="Cascadia Mono SemiLight" FontSize="16" BorderBrush="White" PreviewTextInput="PreviewTextInputIsNumeric"/>
-        <Label Name ="textLabel" Content="Введите почту:" HorizontalAlignment="Left" Height="28" Margin="242,67,0,0" VerticalAlignment="Top" Width="198" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <Button x:Name="nextStepBtn" Content="Далее" HorizontalAlignment="Left" Height="68" Margin="275,250,0,0" VerticalAlignment="Top" Width="270" Background="#FFFAEFFB" BorderBrush="#FF0A0A0A" FontFamily="Cascadia Mono SemiBold" FontSize="20" Click="nextStepBtn_Click"/>
-        <Button Name ="backBtn" Content="◀️" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" VerticalAlignment="Top" Width="46" BorderBrush="White" Background="White" FontSize="24" Click="backBtn_Click"/>
+        <TextBox Name ="mailBox" HorizontalAlignment="Left" Height="25" Margin="275,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="315" BorderBrush="White" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name ="codeBox" HorizontalAlignment="Center" Height="25" Margin="0,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" FontFamily="Cascadia Mono SemiLight" FontSize="16" BorderBrush="White" Visibility="Hidden" PreviewTextInput="PreviewTextInputIsNumeric"/>
+        <Label Name ="textLabel" Content="Введите почту" HorizontalAlignment="Left" Height="25" Margin="242,60,0,0" VerticalAlignment="Top" Width="198" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <Button Content="Далее" HorizontalAlignment="Center" Height="62" Margin="0,253,0,0" VerticalAlignment="Top" Width="240" FontFamily="Cascadia Mono SemiBold" FontSize="20" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB"/>
+        <Button Name ="backBtn" Content="◀" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" VerticalAlignment="Top" Width="46" BorderBrush="White" Background="White" FontSize="24" Click="backBtn_Click"/>
     </Grid>
 </Window>
