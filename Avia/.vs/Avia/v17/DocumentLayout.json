@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,16 +47,8 @@
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:registration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\archmqq\\documents\\\u043C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\aviaproject\\avia\\mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -142,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,57 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-04T15:26:59.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DBRegistrator.cs",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\DBRegistrator.cs",
-              "RelativeDocumentMoniker": "DBRegistrator.cs",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\DBRegistrator.cs",
-              "RelativeToolTip": "DBRegistrator.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAIwHEAAAB0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T10:27:19.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAqwCoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:26:55.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserInfo.xaml",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfo.xaml",
-              "RelativeDocumentMoniker": "UserInfo.xaml",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfo.xaml",
-              "RelativeToolTip": "UserInfo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T18:07:01.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserInfo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfo.xaml.cs",
               "RelativeDocumentMoniker": "UserInfo.xaml.cs",
@@ -213,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DBDefaultInfoChecker.cs",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\DBDefaultInfoChecker.cs",
               "RelativeDocumentMoniker": "DBDefaultInfoChecker.cs",
@@ -221,12 +171,11 @@
               "RelativeToolTip": "DBDefaultInfoChecker.cs",
               "ViewState": "AQIAAMUAAAAAAAAAAAAuwNIAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:55:45.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T17:55:45.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FlightFullInfo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\FlightFullInfo.xaml.cs",
               "RelativeDocumentMoniker": "FlightFullInfo.xaml.cs",
@@ -234,20 +183,89 @@
               "RelativeToolTip": "FlightFullInfo.xaml.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAgwDcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T15:42:25.741Z",
+              "WhenOpened": "2024-06-16T15:42:25.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml",
+              "RelativeDocumentMoniker": "Registration.xaml",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml",
+              "RelativeToolTip": "Registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T06:12:47.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DBRegistrator.cs",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\DBRegistrator.cs",
+              "RelativeDocumentMoniker": "DBRegistrator.cs",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\DBRegistrator.cs",
+              "RelativeToolTip": "DBRegistrator.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwHEAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:27:19.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registration.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml.cs",
+              "RelativeDocumentMoniker": "Registration.xaml.cs",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml.cs",
+              "RelativeToolTip": "Registration.xaml.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAEwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T06:12:59.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserInfo.xaml",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfo.xaml",
+              "RelativeDocumentMoniker": "UserInfo.xaml",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfo.xaml",
+              "RelativeToolTip": "UserInfo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T18:07:01.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:26:55.415Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-04T15:26:59.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserInfoRegistration.xaml",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfoRegistration.xaml",
               "RelativeDocumentMoniker": "UserInfoRegistration.xaml",
               "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfoRegistration.xaml",
               "RelativeToolTip": "UserInfoRegistration.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T10:15:07.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T10:15:07.341Z"
             },
             {
               "$type": "Document",
@@ -263,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\app.config",
               "RelativeDocumentMoniker": "app.config",
@@ -271,12 +289,11 @@
               "RelativeToolTip": "app.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-06-05T20:24:45.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T20:24:45.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserInfoRegistration.xaml.cs",
               "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\UserInfoRegistration.xaml.cs",
               "RelativeDocumentMoniker": "UserInfoRegistration.xaml.cs",
@@ -285,29 +302,6 @@
               "ViewState": "AQIAABQAAAAAAAAAAAAxwA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T10:26:21.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Registration.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml.cs",
-              "RelativeDocumentMoniker": "Registration.xaml.cs",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml.cs",
-              "RelativeToolTip": "Registration.xaml.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAswHIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T06:12:59.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Registration.xaml",
-              "DocumentMoniker": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml",
-              "RelativeDocumentMoniker": "Registration.xaml",
-              "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\Registration.xaml",
-              "RelativeToolTip": "Registration.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:12:47.097Z"
             },
             {
               "$type": "Document",
@@ -399,8 +393,7 @@
               "ToolTip": "C:\\Users\\archMqq\\Documents\\\u041C\u0438\u0440\u043A\u0438\u0442\u0430\u043D\u043E\u0432\\AviaProject\\Avia\\AllFlightsWindows.xaml",
               "RelativeToolTip": "AllFlightsWindows.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T11:29:24.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T11:29:24.038Z"
             },
             {
               "$type": "Document",

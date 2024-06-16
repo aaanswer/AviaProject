@@ -125,7 +125,7 @@ namespace Avia {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Avia;V1.0.0.0;component/flightfullinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Avia;component/flightfullinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\FlightFullInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
