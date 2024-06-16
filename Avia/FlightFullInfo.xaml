@@ -7,14 +7,22 @@
         mc:Ignorable="d"
         Title="FlightFullInfo" Height="450" Width="800" Closing="Window_Closing">
     <Grid>
-        <Label Name="airlinesLabel" Content="Label" HorizontalAlignment="Left" Height="31" Margin="34,34,0,0" VerticalAlignment="Top" Width="437"/>
-        <Label Name="originLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,95,0,0" VerticalAlignment="Top" Width="437"/>
-        <Label Name ="destinationLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,155,0,0" VerticalAlignment="Top" Width="437"/>
-        <Label Name="departureTimeLable" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,205,0,0" VerticalAlignment="Top" Width="437"/>
-        <Label Name="arrivalTimeLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,255,0,0" VerticalAlignment="Top" Width="437"/>
-        <Label Name="countOfFreeSeatsLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,308,0,0" VerticalAlignment="Top" Width="437"/>
-        <Button Name="bookBtn" Content="Забронировать" HorizontalAlignment="Left" Height="56" Margin="522,114,0,0" VerticalAlignment="Top" Width="244"/>
-        <Button Name ="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="56" Margin="522,266,0,0" VerticalAlignment="Top" Width="244" Click="favoriteBtn_Click"/>
-        <Label Name="statusLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,361,0,0" VerticalAlignment="Top" Width="437"/>
+        <Label Name="airlinesLabel" Content="Label" HorizontalAlignment="Left" Height="31" Margin="34,25,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name="originLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,85,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name ="destinationLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,145,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name="departureTimeLable" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,205,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name="arrivalTimeLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,265,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name="countOfFreeSeatsLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,325,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Label Name="statusLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,385,0,0" VerticalAlignment="Top" Width="437" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+
+        <Button Name="bookBtn" Content="Забронировать" HorizontalAlignment="Left" Height="56" Margin="522,114,0,0" VerticalAlignment="Top" Width="244" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+        <Button Name ="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="56" Margin="522,266,0,0" VerticalAlignment="Top" Width="244" Click="favoriteBtn_Click" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
+
     </Grid>
 </Window>

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainMenu" Height="450" Width="800">
     <Grid>
-        <Button Name="allFlights" Content="Button" HorizontalAlignment="Left" Height="81" Margin="161,99,0,0" VerticalAlignment="Top" Width="503" Click="allFlights_Click"/>
-        <Button Name="favoriteFlights" Content="Button" HorizontalAlignment="Left" Height="78" Margin="161,249,0,0" VerticalAlignment="Top" Width="503" Click="favoriteFlights_Click"/>
+        <Button Name="allFlights" Content="Все рейсы" HorizontalAlignment="Left" Height="81" Margin="161,99,0,0" VerticalAlignment="Top" Width="503" Click="allFlights_Click" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="30"/>
+        <Button Name="favoriteFlights" Content="Избранное" HorizontalAlignment="Left" Height="78" Margin="161,249,0,0" VerticalAlignment="Top" Width="503" Click="favoriteFlights_Click" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="30"/>
 
     </Grid>
 </Window>

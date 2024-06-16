@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="UserInfo" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Имя:" HorizontalAlignment="Left" Margin="64,55,0,358" Width="42" FontStyle="Italic" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <TextBox Name="nameBox" HorizontalAlignment="Left" Height="30" Margin="61,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
+        <TextBlock Text="Имя:" HorizontalAlignment="Left" Margin="64,55,0,358" Width="42" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name="nameBox" HorizontalAlignment="Left" Height="30" Margin="61,75,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
 
-        <TextBlock Text="Фамилия:" HorizontalAlignment="Left" Margin="64,105,0,301" Width="78" FontStyle="Italic" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <TextBox Name="surnameBox" HorizontalAlignment="Left" Height="30" Margin="61,125,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
+        <TextBlock Text="Фамилия:" HorizontalAlignment="Left" Margin="64,105,0,301" Width="78" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name="surnameBox" HorizontalAlignment="Left" Height="30" Margin="61,125,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
 
-        <TextBlock Text="Отчество:" HorizontalAlignment="Left" Margin="64,160,0,253" Width="88" FontStyle="Italic" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <TextBox Name="patronymicBox" HorizontalAlignment="Left" Height="30" Margin="61,180,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
+        <TextBlock Text="Отчество:" HorizontalAlignment="Left" Margin="64,160,0,253" Width="88" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name="patronymicBox" HorizontalAlignment="Left" Height="30" Margin="61,180,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
 
-        <TextBlock Text="Серия паспорта (4 цифры):" HorizontalAlignment="Left" Margin="64,210,0,205" Width="242" FontStyle="Italic" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <TextBox Name="passportSeriesBox" HorizontalAlignment="Left" Height="30" Margin="61,230,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" MaxLength="4" PreviewTextInput="PreviewTextInputIsNumeric" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
+        <TextBlock Text="Серия паспорта (4 цифры):" HorizontalAlignment="Left" Margin="64,210,0,205" Width="242" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name="passportSeriesBox" HorizontalAlignment="Left" Height="30" Margin="61,230,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" MaxLength="4" PreviewTextInput="PreviewTextInputIsNumeric" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
 
-        <TextBlock Text="Номер паспорта (6 цифр):" HorizontalAlignment="Left" Margin="64,260,0,154" Width="225" FontStyle="Italic" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <TextBox Name="passportNumberBox" HorizontalAlignment="Left" Height="30" Margin="61,280,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" MaxLength="6" IsUndoEnabled="False" PreviewTextInput="PreviewTextInputIsNumeric" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
-        <Button Name="changeBtn" Content="Изменить" HorizontalAlignment="Left" Height="50" Margin="487,185,0,0" VerticalAlignment="Top" Width="199" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="14"/>
-
+        <TextBlock Text="Номер паспорта (6 цифр):" HorizontalAlignment="Left" Margin="64,260,0,154" Width="225" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <TextBox Name="passportNumberBox" HorizontalAlignment="Left" Height="30" Margin="61,280,0,0" TextWrapping="Wrap" Text="Ввод" VerticalAlignment="Top" Width="268" Cursor="IBeam" BorderBrush="White" MaxLength="6" IsUndoEnabled="False" PreviewTextInput="PreviewTextInputIsNumeric" TextBlock.FontFamily="Cascadia Mono SemiLight" TextBlock.FontSize="16"/>
+        
+        <Button Name="changeBtn" Content="Изменить" HorizontalAlignment="Left" Height="50" Margin="487,167,0,0" VerticalAlignment="Top" Width="199" Cursor="Hand" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Code SemiBold" FontSize="20"/>
     </Grid>
 </Window>
