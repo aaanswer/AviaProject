@@ -36,26 +36,11 @@ namespace Avia
             emailer = new Emailer();
         }        
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            backToOwner();
-        }
-
         private void backToOwner()
         {
             MainWindow entering = new MainWindow();
             entering.Show();
             Close();
-        }
-
-        private SmtpClient smtpCreate()
-        {
-            SmtpClient smtpClient = new SmtpClient("smtp.mail.ru");
-            smtpClient.Port = 587;
-            smtpClient.Credentials = new NetworkCredential("testmeilbox0028@mail.ru", "XFehgm1UpW7TWcLwxtmH");
-            smtpClient.EnableSsl = true;
-
-            return smtpClient;
         }
         
         private bool enterNewUser(string password)
@@ -65,7 +50,29 @@ namespace Avia
             else return false;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void continueRegistration()
+        {
+            UserInfoRegistration userInfoRegistration = new UserInfoRegistration(receiverMail);
+            userInfoRegistration.Show();
+            Close();
+        }
+
+        private void CheckIsNumeric(TextCompositionEventArgs e)
+        {
+            int result;
+
+            if (!(int.TryParse(e.Text, out result)))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void PreviewTextInputIsNumeric(object sender, TextCompositionEventArgs e)
+        {
+            CheckIsNumeric(e);
+        }
+
+        private void nextStepBtn_Click(object sender, RoutedEventArgs e)
         {
             if (ServerPinger.PingServer())
             {
@@ -86,16 +93,16 @@ namespace Avia
                     if (DBRegistrator.registerNewUserLogin(receiverMail, PasswordGenerator.hashPassword(password)))
                         if (emailer.sendPassword(receiverMail, password))
                             continueRegistration();
-                    else
-                    {
-                        MessageBox.Show("Ошибка при регистрации нового пользователя. Попробуйте позже");
-                        mailBox.Visibility = Visibility.Visible;
-                        codeBox.Visibility = Visibility.Hidden;
-                        textLabel.Content = "Введите почту";
-                        isMail = true;
-                        receiverMail = string.Empty;
-                        verificationCode = 0;
-                    }
+                        else
+                        {
+                            MessageBox.Show("Ошибка при регистрации нового пользователя. Попробуйте позже");
+                            mailBox.Visibility = Visibility.Visible;
+                            codeBox.Visibility = Visibility.Hidden;
+                            textLabel.Content = "Введите почту";
+                            isMail = true;
+                            receiverMail = string.Empty;
+                            verificationCode = 0;
+                        }
                 }
             }
             else
@@ -104,11 +111,9 @@ namespace Avia
             }
         }
 
-        private void continueRegistration()
+        private void backBtn_Click(object sender, RoutedEventArgs e)
         {
-            UserInfoRegistration userInfoRegistration = new UserInfoRegistration(receiverMail);
-            userInfoRegistration.Show();
-            Close();
+            backToOwner();
         }
     }
 }

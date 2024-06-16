@@ -12,8 +12,7 @@
         <Button Name ="registrationButton" Content="Я не зарегистрирован" HorizontalAlignment="Center" Height="23" Margin="0,366,0,0" VerticalAlignment="Top" Width="180" Click="registrationButton_Click" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" />
         <Button Name="restorePasswordBox" Content="Пароль забыт" HorizontalAlignment="Left" Height="23" Margin="230,188,0,0" VerticalAlignment="Top" Width="110" Foreground="Black" BorderBrush="#FF0A0A0A" Background="#FFFAEFFB" FontFamily="Cascadia Mono SemiBold" FontSize="14"/>
         <Label Content="Email:" HorizontalAlignment="Left" Height="26" Margin="230,74,0,0" VerticalAlignment="Top" Width="89" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
-        <Label Content="Пароль:" HorizontalAlignment="Left" Height="28
-               " Margin="230,137,0,0" VerticalAlignment="Top" Width="77" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Height="28" Margin="230,137,0,0" VerticalAlignment="Top" Width="77" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
         <PasswordBox Name ="passwordBox" HorizontalAlignment="Left" Height="23" Margin="230,165,0,0" VerticalAlignment="Top" Width="309" BorderBrush="White" FontFamily="Cascadia Mono SemiLight" FontSize="16"/>
 
     </Grid>
