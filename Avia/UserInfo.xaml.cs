@@ -25,6 +25,23 @@ namespace Avia
         {
             InitializeComponent();
             this.userID = userID;
+            fillUserInfo();
+        }
+
+        private void fillUserInfo()
+        {
+            var userInfo = DBDefaultInfoChecker.getUserInfo(userID);
+            if (userInfo.HasValue)
+            {
+                var (name, surname, patronymic, passportSeries, passportNumber) = userInfo.Value;
+                nameBox.Text = name;
+                surnameBox.Text = surname;
+                patronymicBox.Text = patronymic;
+                passportSeriesBox.Text = passportSeries;
+                passportNumberBox.Text = passportNumber;
+            }
+            else
+                MessageBox.Show("Проблемы с поиском выших данных. Попробуйте позже!");
         }
 
         private void changeBtn_Click(object sender, RoutedEventArgs e)

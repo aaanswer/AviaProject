@@ -30,7 +30,7 @@ public partial class MainWindow : Window
         if (DBDefaultInfoChecker.isEmailRegistered(mailBox.Text))
         {
             int userID = DBDefaultInfoChecker.getUserIDViaEmail(mailBox.Text);
-            if (VerifyPassword(passwordBox.Text, DBDefaultInfoChecker.getPasswordHashViaEmail(email)))
+            if (VerifyPassword(passwordBox.Password, DBDefaultInfoChecker.getPasswordHashViaEmail(email)))
             {
                 MainMenu menu = new MainMenu(userID);
                 menu.Show();
@@ -39,7 +39,7 @@ public partial class MainWindow : Window
             else
             {
                 MessageBox.Show("Пароль введен неверно!");
-                passwordBox.Text = "";
+                passwordBox.Password = "";
             }
         }
     }    
@@ -48,22 +48,6 @@ public partial class MainWindow : Window
     {
         return string.Equals(PasswordGenerator.hashPassword(password), hashedPassword, StringComparison.OrdinalIgnoreCase);        
     }
-
-    //Работа eyeButton
-    /*private void eyeButton_Click(object sender, EventArgs e)
-    {
-        if (passwordBox.UseSystemPasswordChar == true)
-        {
-            passwordBox.UseSystemPasswordChar = false;
-            eyeButton.BackgroundImage = Resources.openEye;
-
-        }
-        else
-        {
-            passwordBox.UseSystemPasswordChar = true;
-            eyeButton.BackgroundImage = Resources.closeEye;
-        }
-    }*/
 
     private void registrationButton_Click(object sender, RoutedEventArgs e)
     {

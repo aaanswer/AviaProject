@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -205,5 +206,22 @@ public static class DBDefaultInfoChecker
                 return false;
             }
         }
+    }
+
+    public static (string, string, string, string, string)? getUserInfo(int userID)
+    {
+        using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+        {
+            connection.Open();
+            string query = "SELECT * From Users WHERE UserID = @UserID";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@UserID", userID);
+                var reader = command.ExecuteReader();
+                if (reader.Read())
+                    return (reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetString(4));
+            }
+        }
+        return null;
     }
 }
