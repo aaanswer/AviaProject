@@ -39,5 +39,12 @@ namespace Avia
             favoriteFlights.Show();
             Close();
         }
+
+        private void infoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            UserInfo userInfo = new UserInfo(userID);
+            userInfo.Show();
+            Close();
+        }
     }
 }

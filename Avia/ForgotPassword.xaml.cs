@@ -43,7 +43,7 @@ namespace Avia
                     if (emailer.sendPassword(email, password))
                         backToEntering();
                     else
-                        MessageBox.Show("Проблемы с отпраков пароля!");
+                        MessageBox.Show("Проблемы с отправкой пароля!");
                 }
             }
         }
@@ -53,5 +53,6 @@ namespace Avia
             entering.Show();
             Close();
         }
+
     }
 }

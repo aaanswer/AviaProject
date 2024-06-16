@@ -29,6 +29,7 @@ namespace Avia
             this.userID = userID;
             flights = DBDefaultInfoChecker.getFavoriteFlights(userID);
             creator = new FlightCardCreator();
+            loadAllFlights();
             
         }
         private void loadAllFlights()
@@ -52,6 +53,12 @@ namespace Avia
                 FlightFullInfo flightFullInfo = new FlightFullInfo(flightID, userID, true);
                 flightFullInfo.ShowDialog();
             }
+        }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu(userID);
+            mainMenu.Show();
         }
     }
 }

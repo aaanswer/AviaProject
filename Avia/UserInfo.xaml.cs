@@ -19,9 +19,11 @@ namespace Avia
     /// </summary>
     public partial class UserInfo : Window
     {
-        public UserInfo()
+        private int userID;
+        public UserInfo(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
         }
 
         private void CheckIsNumeric(TextCompositionEventArgs e)
@@ -37,6 +39,13 @@ namespace Avia
         private void PreviewTextInputIsNumeric(object sender, TextCompositionEventArgs e)
         {
             CheckIsNumeric(e);
+        }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu(userID);
+            mainMenu.Show();
+            Close();
         }
     }
 }

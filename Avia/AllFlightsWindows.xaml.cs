@@ -29,6 +29,7 @@ namespace Avia
             flights = DBDefaultInfoChecker.getAllFlights();
             this.userID = userID;
             creator = new FlightCardCreator();
+            loadAllFlights();
         }
 
         private void loadAllFlights()
@@ -38,6 +39,13 @@ namespace Avia
                 var card = creator.createCard(flight.Item1, DBDefaultInfoChecker.getAirlinesNameByID(flight.Item2), flight.Item3, flight.Item4, flight.Item5, flight.Item6);
                 panelContainer.Children.Add(card);
             }
+        }
+
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainMenu mainMenu = new MainMenu(userID);
+            mainMenu.Show();
+            Close();
         }
     }
 }

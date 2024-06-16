@@ -45,6 +45,11 @@ namespace Avia
                 DBRegistrator.deleteFromFavorite(flightID, userID);
         }
 
+        private void backBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
         private void fillWindow()
         {
             var flightInfo = DBDefaultInfoChecker.getFlightInfoViaID(flightID);

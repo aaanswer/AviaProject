@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinforegistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinforegistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\allflightswindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:allflightswindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightfullinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightfullinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\favoriteflights.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:favoriteflights.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\favoriteflights.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:favoriteflights.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\allflightswindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:allflightswindows.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightfullinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightfullinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -27,24 +39,20 @@
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:mainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinforegistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinforegistration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:forgotpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightfullinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightfullinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:userinforegistration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\allflightswindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:allflightswindows.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\flightcardcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:flightcardcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\mainmenu.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:mainmenu.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\obj\\Debug\\net8.0-windows\\MainMenu.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:serverpinger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\forgotpassword.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:forgotpassword.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|c:\\users\\adeli\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\aviaproject\\avia\\emailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFEC4F16-C5A5-4486-B36F-A7552AF7BB29}|Avia.csproj|solutionrelative:emailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,24 +114,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "AllFlightsWindows.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml.cs",
+              "RelativeDocumentMoniker": "AllFlightsWindows.xaml.cs",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml.cs",
+              "RelativeToolTip": "AllFlightsWindows.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:33:24.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlightFullInfo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FlightFullInfo.xaml.cs",
+              "RelativeDocumentMoniker": "FlightFullInfo.xaml.cs",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FlightFullInfo.xaml.cs",
+              "RelativeToolTip": "FlightFullInfo.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:31:33.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserInfo.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfo.xaml.cs",
               "RelativeDocumentMoniker": "UserInfo.xaml.cs",
               "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfo.xaml.cs",
               "RelativeToolTip": "UserInfo.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAewBkAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T20:57:41.724Z",
+              "WhenOpened": "2024-06-16T21:46:23.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "MainMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml",
+              "RelativeDocumentMoniker": "MainMenu.xaml",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml",
+              "RelativeToolTip": "MainMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T13:56:49.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllFlightsWindows.xaml",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml",
+              "RelativeDocumentMoniker": "AllFlightsWindows.xaml",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml",
+              "RelativeToolTip": "AllFlightsWindows.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T11:29:24.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FavoriteFlights.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FavoriteFlights.xaml.cs",
+              "RelativeDocumentMoniker": "FavoriteFlights.xaml.cs",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FavoriteFlights.xaml.cs",
+              "RelativeToolTip": "FavoriteFlights.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAMwB8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T21:29:30.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserInfo.xaml",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfo.xaml",
               "RelativeDocumentMoniker": "UserInfo.xaml",
@@ -139,30 +202,6 @@
               "RelativeToolTip": "UserInfo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-16T18:07:01.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "flightPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\flightPanel.xaml",
-              "RelativeDocumentMoniker": "flightPanel.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\flightPanel.xaml",
-              "RelativeToolTip": "flightPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T11:54:58.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ForgotPassword.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml",
-              "RelativeDocumentMoniker": "ForgotPassword.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml",
-              "RelativeToolTip": "ForgotPassword.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T17:46:07.707Z",
               "EditorCaption": ""
             },
             {
@@ -179,56 +218,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserInfoRegistration.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml",
-              "RelativeDocumentMoniker": "UserInfoRegistration.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml",
-              "RelativeToolTip": "UserInfoRegistration.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T10:15:07.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Registration.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\Registration.xaml",
-              "RelativeDocumentMoniker": "Registration.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\Registration.xaml",
-              "RelativeToolTip": "Registration.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-15T06:12:47.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml",
-              "RelativeDocumentMoniker": "MainMenu.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml",
-              "RelativeToolTip": "MainMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T13:56:49.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "UserInfoRegistration.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml.cs",
               "RelativeDocumentMoniker": "UserInfoRegistration.xaml.cs",
               "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml.cs",
               "RelativeToolTip": "UserInfoRegistration.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAIA4wDsAAAAFAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAewDsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T10:26:21.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-16T10:26:21.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
+              "Title": "ForgotPassword.xaml",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml",
+              "RelativeDocumentMoniker": "ForgotPassword.xaml",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml",
+              "RelativeToolTip": "ForgotPassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T17:46:07.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FlightFullInfo.xaml",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FlightFullInfo.xaml",
               "RelativeDocumentMoniker": "FlightFullInfo.xaml",
@@ -240,18 +253,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AllFlightsWindows.xaml",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml",
-              "RelativeDocumentMoniker": "AllFlightsWindows.xaml",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AllFlightsWindows.xaml",
-              "RelativeToolTip": "AllFlightsWindows.xaml",
+              "DocumentIndex": 9,
+              "Title": "UserInfoRegistration.xaml",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml",
+              "RelativeDocumentMoniker": "UserInfoRegistration.xaml",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\UserInfoRegistration.xaml",
+              "RelativeToolTip": "UserInfoRegistration.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-16T11:29:24.038Z"
+              "WhenOpened": "2024-06-16T10:15:07.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "flightPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\flightPanel.xaml",
+              "RelativeDocumentMoniker": "flightPanel.xaml",
+              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\flightPanel.xaml",
+              "RelativeToolTip": "flightPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-16T11:54:58.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CodeGenerator.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "CodeGenerator.cs",
@@ -263,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "FlightCardCreator.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\FlightCardCreator.cs",
               "RelativeDocumentMoniker": "FlightCardCreator.cs",
@@ -275,19 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml.cs",
-              "RelativeDocumentMoniker": "MainMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainMenu.xaml.cs",
-              "RelativeToolTip": "MainMenu.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAawCgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T13:56:51.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainMenu.g.i.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\obj\\Debug\\net8.0-windows\\MainMenu.g.i.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\MainMenu.g.i.cs",
@@ -299,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\app.config",
               "RelativeDocumentMoniker": "app.config",
@@ -311,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -335,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -346,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -358,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Registration.xaml.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\Registration.xaml.cs",
               "RelativeDocumentMoniker": "Registration.xaml.cs",
@@ -370,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "PasswordGenerator.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\PasswordGenerator.cs",
               "RelativeDocumentMoniker": "PasswordGenerator.cs",
@@ -382,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ServerPinger.cs",
               "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ServerPinger.cs",
               "RelativeDocumentMoniker": "ServerPinger.cs",
@@ -391,18 +404,6 @@
               "ViewState": "AQIAAAQAAAAAAAAAAAAqwB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T06:25:51.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ForgotPassword.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml.cs",
-              "RelativeDocumentMoniker": "ForgotPassword.xaml.cs",
-              "ToolTip": "C:\\Users\\adeli\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AviaProject\\Avia\\ForgotPassword.xaml.cs",
-              "RelativeToolTip": "ForgotPassword.xaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwB8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T17:47:20.288Z"
             },
             {
               "$type": "Document",
