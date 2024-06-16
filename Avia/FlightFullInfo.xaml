@@ -13,7 +13,7 @@
         <Label Name="departureTimeLable" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,205,0,0" VerticalAlignment="Top" Width="437"/>
         <Label Name="arrivalTimeLabel" Content="Label" HorizontalAlignment="Left" Height="32" Margin="34,255,0,0" VerticalAlignment="Top" Width="437"/>
         <Label Name="countOfFreeSeatsLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,308,0,0" VerticalAlignment="Top" Width="437"/>
-        <Button Name="bookBtn" Content="Забронировать" HorizontalAlignment="Left" Height="56" Margin="522,114,0,0" VerticalAlignment="Top" Width="244"/>
+        <Button Name="bookBtn" Content="Забронировать" HorizontalAlignment="Left" Height="56" Margin="522,114,0,0" VerticalAlignment="Top" Width="244" Click="bookBtn_Click"/>
         <Button Name ="favoriteBtn" Content="Добавить в избранное" HorizontalAlignment="Left" Height="56" Margin="522,266,0,0" VerticalAlignment="Top" Width="244" Click="favoriteBtn_Click"/>
         <Label Name="statusLabel" Content="Label" HorizontalAlignment="Left" Height="29" Margin="34,361,0,0" VerticalAlignment="Top" Width="437"/>
     </Grid>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Avia.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,19 @@ namespace Avia
     /// </summary>
     public partial class UserInfo : Window
     {
-        public UserInfo()
+        private int userID;
+        public UserInfo(int userID)
         {
             InitializeComponent();
+            this.userID = userID;
+        }
+
+        private void changeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (DBRegistrator.changeUserInfo(userID, nameBox.Text, surnameBox.Text, patronymicBox.Text, passportSeriesBox.Text, passportNumberBox.Text))
+                MessageBox.Show("Данные успешно обновлены!");
+            else
+                MessageBox.Show("Не удалось обновить данные. Попробуйте позже.");
         }
     }
 }

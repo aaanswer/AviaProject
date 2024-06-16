@@ -45,6 +45,14 @@ namespace Avia
                 DBRegistrator.deleteFromFavorite(flightID, userID);
         }
 
+        private void bookBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (DBRegistrator.bookFlight(userID, flightID))
+                MessageBox.Show("Бронь успешно выполнена");
+            else
+                MessageBox.Show("Невозможно выполнить бронирование. Попробуйте позже.");
+        }
+
         private void fillWindow()
         {
             var flightInfo = DBDefaultInfoChecker.getFlightInfoViaID(flightID);

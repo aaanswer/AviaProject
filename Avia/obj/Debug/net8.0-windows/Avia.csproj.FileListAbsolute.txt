@@ -82,3 +82,5 @@ C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\flightPanel.baml
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\FlightFullInfo.g.cs
 C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\FlightFullInfo.baml
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\UserInfo.g.cs
+C:\Users\archMqq\Documents\Миркитанов\AviaProject\Avia\obj\Debug\net8.0-windows\UserInfo.baml
