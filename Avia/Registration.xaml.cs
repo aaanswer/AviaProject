@@ -58,75 +58,11 @@ namespace Avia
             return smtpClient;
         }
         
-
-        //Изменить
         private bool enterNewUser(string password)
         {
-            string selectCountQuery = "SELECT COUNT(*) FROM UsersInfo";
-            string insertLoginQuery = "INSERT INTO UsersLogin (PasswordHash, Email) VALUES (@PasswordHash, @Email)";
-            string insertInfoQuery = "INSERT INTO UsersInfo (Email, Nickname) VALUES (@Email, @Nickname)";
-
-            int newUserID;
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
-                {
-                    connection.Open();
-                    using (SqlCommand countCommand = new SqlCommand(selectCountQuery, connection))
-                    {
-                        newUserID = Convert.ToInt32(countCommand.ExecuteScalar()) + 1;
-                    }
-                }
-
-                using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
-                {
-                    connection.Open();
-                    using (SqlTransaction transaction = connection.BeginTransaction())
-                    {
-                        try
-                        {
-                            string hash = PasswordGenerator.hashPassword(password);
-                            using (SqlCommand command = new SqlCommand(insertLoginQuery, connection, transaction))
-                            {
-                                command.Parameters.AddWithValue("@PasswordHash", hash);
-                                command.Parameters.AddWithValue("@Email", receiverMail);
-                                int rowsAffected = command.ExecuteNonQuery();
-                                if (rowsAffected <= 0)
-                                {
-                                    transaction.Rollback();
-                                    return false;
-                                }
-                            }
-
-                            using (SqlCommand command = new SqlCommand(insertInfoQuery, connection, transaction))
-                            {
-                                command.Parameters.AddWithValue("@Email", receiverMail);
-                                command.Parameters.AddWithValue("@Nickname", "User_" + newUserID);
-                                int rowsAffected = command.ExecuteNonQuery();
-                                if (rowsAffected <= 0)
-                                {
-                                    transaction.Rollback();
-                                    return false;
-                                }
-                            }
-
-                            transaction.Commit();
-                            return true;
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show(ex.Message);
-                            transaction.Rollback();
-                            return false;
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                return false;
-            }
+            if (DBRegistrator.registerNewUserLogin(receiverMail, PasswordGenerator.hashPassword(password)))
+                return true;
+            else return false;
         }
 
         private void button2_Click(object sender, EventArgs e)

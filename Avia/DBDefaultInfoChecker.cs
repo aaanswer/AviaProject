@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Media3D;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Avia.Database;
 
@@ -34,6 +35,34 @@ public static class DBDefaultInfoChecker
             {
                 command.Parameters.AddWithValue("@Email", email);
                 return (int)command.ExecuteScalar();
+            }
+        }
+    }
+
+    public static string getPasswordHashViaEmail(string email)
+    {
+        using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+        {
+            connection.Open();
+            string query = "SELECT HashedPassword From UserLogins WHERE Email = @Email";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@Email", email);
+                return command.ExecuteScalar().ToString();
+            }
+        }
+    }
+
+    public static bool isRegisteredUserInfo(int userID)
+    {
+        using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+        {
+            connection.Open();
+            string query = "SELECT COUNT(*) From Users WHERE UserID = @UserID";
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@UserID", userID);
+                return (int)command.ExecuteScalar() > 0;
             }
         }
     }

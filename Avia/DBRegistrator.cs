@@ -103,6 +103,35 @@ namespace Avia.Database
             }
         }
 
+        public static bool addUserInfo(int userID, string name, string surname, string patronymic, string passportSeries, string passportNumber, string email)
+        {
+            using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
+            {
+                try
+                {
+                    connection.Open();
+                    string query = @"INSERT INTO Users (UserID, Name, Surname, Patronymic, PassportSeries, PassportNumber, Email)
+                             VALUES (@UserID, @Name, @Surname, @Patronymic, @PassportSeries, @PassportNumber, @Email)";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@UserID", userID);
+                        command.Parameters.AddWithValue("@Name", name);
+                        command.Parameters.AddWithValue("@Surname", surname);
+                        command.Parameters.AddWithValue("@Patronymic", patronymic);
+                        command.Parameters.AddWithValue("@PassportSeries", passportSeries);
+                        command.Parameters.AddWithValue("@PassportNumber", passportNumber);
+                        command.Parameters.AddWithValue("@Email", email);
+                        return command.ExecuteNonQuery() > 0;
+                    }
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
+
+
         public static bool changeUserInfo(int userID, string name, string surname, string patronymic, string passportSeries, string passportNumber)
         {
             using (SqlConnection connection = new SqlConnection(dbContainer.getAdminString()))
